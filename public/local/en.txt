@@ -1,0 +1,8 @@
+Modification to increase the minimap. (See how to do it)
+- Allows you to increase the minimap in 1.5/2/3 three times....
+
+Compatibility:
+- - Platform: PC/Android? (On Android, sew it into the APK)
+- Publisher of the game: Wargaming.net / Lesta GAMES
+- Game version: 10.1.5+
+- The version of the game where the mod was tested: 10.1.5
