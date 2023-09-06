@@ -1,5 +1,6 @@
 Header:
     version: 155
+    # version: 157
 ImportedPackages:
 - "~res:/UI/Styles/Battle/BattleHUD.yaml"
 StyleSheets:
@@ -99,6 +100,19 @@ Prototypes:
         StyleSheet:
             inheritsStylesFromParent: true
             styles: "~res:/UI/Screens/Battle/Minimap.yaml"
+# -   class: "UIControl" ##Добавлено в 10.3.0
+    # name: "Marker"
+    # scale: [0.800000, 0.800000]
+    # pivot: [0.500000, 0.500000]
+    # input: false
+    # classes: "action-icon-path marker-enemy-here"
+    # components:
+        # Background: {}
+        # SizePolicy:
+            # horizontalPolicy: "PercentOfContent"
+            # verticalPolicy: "PercentOfContent"
+        # StyleSheet:
+            # styles: "~res:/UI/Screens/Battle/Styles/ChatActionStyles.style.yaml;"
 -   class: "UIControl"
     name: "BossModeBossMarker"
     pivot: [0.500000, 0.500000]
@@ -173,7 +187,7 @@ Prototypes:
 -   class: "UIControl"
     name: "Minimap"
     size: [163.000000, 163.000000]
-    scale: [3.000000, 3.000000] ##Коэффициент увеличения миникарты
+    scale: [1.500000, 1.500000] ##Коэффициент увеличения миникарты
     classes: "minimap-placement=minimap-top-center"
     components:
         Background: {}
